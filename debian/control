@@ -1,0 +1,41 @@
+Source: qml-screenshot
+Section: user/utilities
+Priority: optional
+Maintainer: Stuart Howarth <showarth@marxoft.co.uk>
+Build-Depends: debhelper (>= 5), libqt4-dev
+Standards-Version: 3.7.3
+
+Package: qml-screenshot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qt-components-hildon-viewer
+Description: A simple screenshot application
+ QML Screenshot is a simple screenshot application written entirely in QML, 
+ using Qt Components Hildon and Qt Components Hildon Viewer. The application 
+ includes options to capture only part of the screen and can scale screenshots 
+ to your preferred size. You can also set a timer and take repeat screenshots.
+XB-Maemo-Display-Name: QML Screenshot
+XB-Maemo-Icon-26:
+ iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
+ WXMAAA3XAAAN1wFCKJt4AAAAB3RJTUUH3goNFjIMoFfQGwAABL1JREFUaN7tmt1L020Yxz/3by8J
+ ijhRhi8DE0LCbI6JEL4cqOCZ2InSgdROLKQIMmIQ5F+gKCqiO1DxDRR9hsLwMBDBhGIUjKKjGu5X
+ LAebB5pz3h2ko6e0qVvNPY9f+J38uK/r/n657/u6rvtFqKqqSCmbhBDjQCapgZCU8rYQYlH4fL5m
+ IcQ/pBCklAghAG4KVVWDQKaUUoqDvykgQAICCGkPp02qkP+Ja6ZCiuNCwIWA/7sAbSKcRCIRHA4H
+ PT09bG1t/batXq/n7t27PH78GL1eH39EUlVVxuNge3sbu93O7Ozsqezq6+vp7+/HYDAkT8D+/j4P
+ HjxgYWHhTPY1NTVMTU2h0+n+/hqQUvL06dMzkwdYWVnhzp077O3tJX4EfD4fHo/nSOdarZbFxUXm
+ 5uYSshCrq6tpb28nEokc2VdpaSl5eXknFzAwMEB/fz/hcJjvZcev2NnZSWg0uXTpEkdVM0IIdDod
+ Dx8+pKOjI7aA9fV1WltbE07wLEhLSyMcDhOJREhLS2Nubo6Kiorfr4H19fWEkM/Ozqa4uJji4uIz
+ RZrS0lIcDgf3799Hr9ezs7PDixcvYueBeMm3trZis9koLCxEUZRotPJ6vYyOjp443La1tdHQ0MD1
+ 69eZnJxkc3OT7e3tP5eJTSYTLpeL3t5ezGYz6enpaDQaNBoN6enplJeX09fXh8vlwmQyxfQ3NDTE
+ +/fvmZ6eJhgM/tlMXFtby+DgIDk5OaiqyuzsLC9fvmRjYwOAgoICKioqaGlpwWKx4HK56OjoYGVl
+ 5VifHz58oLa2NnbnqqrKH7/Ozk4JnPi7fPmydLvdUlVVOT8/L/Pz849tW1BQIBcWFqSqqtLtdsui
+ oqJT9dXZ2Sl/5hvXFFIUhXv37mE0Gvn48SM2mw2fz3ds+42NDWw2G16vF6PRSHt7e3SdJKUaNRgM
+ NDU1AfDo0SNCoVBMm2AwyJMnTwBobm6OuxaKS4DVaiUrKwuPx8Pq6uqJ7Z4/f867d+8wGAyUl5cn
+ T4DFYgFgeXn51LaHNoc+kiIgNzcXgM+fP5/a9tOnTwAYjcbkCdjc3IyuhdMiKyvrXz6SIuDt27cA
+ 1NXVndq2oaEBAI/HkzwBq6ur7O7uUllZSUlJyYntSkpKsFqtfP36lbW1teQJCAQCOJ3OaOrXamMn
+ do1Gw8DAAABOp5NAIJA8AXt7e4yPjxMIBLh69Srd3d3RuX1c3ujt7eXatWsEAgHGxsbi2o0lpBZ6
+ 9eoVdrud4eFhWlpauHLlCjMzM6ytrUUjTV5eHjdu3ODWrVuYzWb29/ex2+243e7zcayytLSE1+tl
+ YmICi8WC2WwmFAoRDocB0Ol0ZGZmoigKX758oa2tLSHkE1pOu91urFYrDocDv9+PRqMhIyODjIwM
+ FEXB7/czMjKC1WpNGPmEjcAhdnd3efbsGV1dXZSVlUUTnd/v582bN8fur8+NgB+PXF6/fv1X9s3K
+ cRnyPOKojP+LgMbGRnJycs4d+dzcXBobG2MLMJlMOJ1Oqqqqzg35mpoanE4nhYWFJz+ZSxVcXHBc
+ CLgQ8B8QEJJSHl7fpwQOuUopQ8rBqw/4/vYgJSCEEAcPPm4rwKKU8iYQSqERCAkhbkopl74BmpQj
+ fO6VJkQAAAAASUVORK5CYII=

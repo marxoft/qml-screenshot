@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=QML Screenshot
+Icon=qml-screenshot
+Exec=/opt/qt-components-hildon-viewer/bin/viewer /opt/qml-screenshot/qml/MainWindow.qml
+
