@@ -10,4 +10,3 @@ icon.files = desktop/qml-screenshot.png
 icon.path = /usr/share/icons/hicolor/64x64/apps
 
 INSTALLS += qml desktop icon
-

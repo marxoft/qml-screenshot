@@ -7,7 +7,7 @@ Standards-Version: 3.7.3
 
 Package: qml-screenshot
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, qt-components-hildon-viewer
+Depends: ${shlibs:Depends}, ${misc:Depends}, qt-components-hildon (>= 0.13.0), qt-components-hildon-viewer
 Description: A simple screenshot application
  QML Screenshot is a simple screenshot application written entirely in QML, 
  using Qt Components Hildon and Qt Components Hildon Viewer. The application 

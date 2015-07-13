@@ -1,3 +1,9 @@
+qml-screenshot (0.0.2) unstable; urgency=low
+
+  * Update to use the new Qt Components Hildon
+
+ -- Stuart Howarth <showarth@marxoft.co.uk>  Sun, 12 Jul 2015 15:31:24 +0000
+
 qml-screenshot (0.0.1) unstable; urgency=low
 
   * Initial Release.
